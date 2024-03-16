@@ -1,0 +1,393 @@
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+
+    .navbar{
+        margin:20px;
+        display: flex;
+        font-family: 'Poppins';
+        font-weight: lighter;
+        color: #223024;
+
+        a{
+            margin-top: 22px;
+            margin-left: 70px;
+            color: #223024;
+            font-size: 22px;
+            font-family:'Poppins';
+            text-decoration: none;
+        }
+    }
+
+    section {
+        margin: 0;
+        height: 100vh;
+    }
+
+    /* Home page styles */
+    #Home {
+        background-image: url(assets/FirstPageBackground.jpg);
+        background-size: cover;
+
+        #one{
+            margin-left:50px;
+            margin-top: 20px;
+            margin-bottom: -170px;
+
+            font-size: 70px;
+            font-weight: lighter;
+            color:#65451F;
+            font-family: 'Kristi';
+        }
+
+        #two{
+            margin-bottom: -200px;
+            margin-left:50px;
+
+            font-size: 150px;
+            color:#223024;
+            font-family: 'Alata';
+            letter-spacing: 5px;
+        }
+
+        #three{
+            margin-bottom: 10px;
+            margin-left:50px;
+
+            font-size: 150px;
+            color:#223024;
+            font-family: 'Alata';
+            letter-spacing: 25px;
+        }
+
+        #four{
+            margin-bottom: 70px;
+            margin-left: 240px;
+
+            font-size: 35px;
+            font-family: 'Lato';
+        }
+
+        #five {
+            margin-left:300px;
+
+            font-family: 'Lato';
+            font-size: 25px;
+            color:white;
+            text-decoration: none;
+            background-color: #A9B388; 
+            border-radius: 50px;
+            padding: 25px 50px;
+        }
+    }
+    /* End of Home page styles */
+
+    /* Contact page styles */
+    #Contact {
+        background-image: url(assets/Background.jpg);
+        background-size: cover;
+
+        #contactdeets {
+            margin-top: -550px;
+            margin-left: 700px;
+            text-align: center;
+
+            h3{
+                font-family: 'Poppins';
+                font-size: 60px;
+                font-weight: normal;
+                color:#65451F;
+                font-family: 'Kristi';
+            }
+            h4{
+                font-size: 30px;
+                font-weight: lighter;
+                font-family: 'Lato';
+            }
+        }
+    }
+
+
+    form{
+        margin-left: 100px;
+        max-width: 600px;
+        padding: 30px;
+        border: none;
+        font-family: 'Lato';
+        background-color: #A9B388;
+    }
+
+    h2 {
+        font-size: 30px;
+        font-family: 'Rouge Script';
+        text-align: center;
+        color: #ffffff;
+    }
+
+
+    input,
+    textarea {
+        color: white;
+        background-color: transparent;
+        padding: 10px 66px;
+        margin-bottom: 15px;
+        border: 1px solid #fffcfc;
+        box-sizing: border-box;
+    }
+
+    #Subject {
+        padding: 10px 217px;
+    }
+
+    input::placeholder,
+    textarea::placeholder {
+        color: #ffffff;
+    }
+
+    textarea {
+        font-family: 'Lato';
+        width: 100%;
+    }
+
+    button {
+        margin-left: 160px;
+        font-family: 'Poppins';
+        background-color: #4F674F;
+        color: white;
+        padding: 20px 70px;
+        border: none;
+        border-radius: 40px;
+        cursor: pointer;
+    }
+    /* End of Contact page styles */
+
+    /* Images page styles */
+    #Images {
+
+        background-image: url(assets/Background.jpg);
+        background-size: cover;
+        
+       /* Donation drive Page styles */
+        #donation-section {
+            margin-left:30px;
+            color: #223024;
+            font-family: 'Lato';
+        }
+        
+        #Donation {
+            display: flex;
+            flex-direction: row;
+            margin-left: 50px;
+        }
+        
+        #leftpics {
+            img {
+                margin:10px;
+                display:flex;
+                flex-direction: column;
+                width: 82%;
+            }
+        }
+
+        #middlepics, #rightpics{
+            img{
+                margin-top: 10px;
+                width: 84%;
+            }
+        }
+        
+        /* End of Donation drive Page styles */
+
+        /* Openday Page styles */
+        #openday-section {
+            margin-left: 30px;
+            color: #223024;
+            font-family: 'Lato';
+        }
+        
+        #Openday {
+            display: flex;
+            flex-direction: row;
+            margin-right: 100px;
+        }
+        
+        #odleftpics,
+        #odmiddlepics,
+        #odrightpics {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: -80px;
+        }
+        
+        #odleftpics img,
+        #odmiddlepics img{
+            margin: 10px;
+            width: 65%;
+        }
+
+        #odrightpics img{
+            width: 95%;
+        }
+        
+        /* End of Openday Page styles */
+
+        /* Acadarena Page styles */
+        #Acadarena-section {
+            margin-left:30px;
+            color: #223024;
+            font-family: 'Lato';
+        }
+        
+        #AA {
+            display: flex;
+            flex-direction: row;
+            margin-left: 50px;
+        }
+        
+        #AAmiddlepics, #AArightpics {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: -80px;
+        }
+
+        #AAmiddlepics img, #AArightpics img {
+            width:55%;
+        }
+        /* End of Acadarena Page styles */
+    
+    }
+
+    /* Infobar styles */
+    .infobar {
+        margin-top:20px;
+        background-color: #4F674F;
+        height: 70px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        
+        a {
+            font-family: 'Poppins';
+            color: white;
+            text-decoration: none;
+            margin: 0 40px;
+        }
+    }
+    /* End of Images page styles */
+
+    /* Info styles */
+    #Info{
+        background-image: url(assets/InfoBackground.jpg);
+        background-size: cover;
+
+        h1{
+            text-align: right;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            margin-right:550px;
+            font-size: 70px;
+            font-weight: lighter;
+            color:#65451F;
+            font-family: 'Kristi';
+        }
+
+        p{
+            margin:30px;
+            margin-left:450px;
+            text-align:justify;
+            font-family: 'Lato';
+
+        }
+
+        h2{
+            color:#5F6F52;
+            margin-left:450px;
+            text-align: left;
+            font-family: 'Poppins';
+        }
+
+        h3{
+            font-weight: lighter;
+            margin-left:450px;
+            text-align: left;
+            font-family: 'Lato';
+        }
+    }
+    /* End of Info styles */
+
+    /* Educational Background Styles */
+    #Educ{
+        background-image: url(assets/EducationalBackground.jpg);
+        background-size: cover;
+    }
+    /* End of  Educational Background Styles */
+
+    /* Awards and Achievements Page Styles */
+    #Achievements{
+        background-image: url(assets/Awards.jpg);
+        background-size: cover;
+    }
+    /* End of Awards and Achievements Page Styles */
+
+    #Projects{
+        background-image: url(assets/Background.jpg);
+        background-size: cover;
+
+        #inmedia-section {
+            margin-left:30px;
+            color: #223024;
+            font-family: 'Lato';
+        }
+        
+        #IM {
+            display: flex;
+            flex-direction: row;
+        }
+        
+        #IMleftpics, #IMrightpics {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: -70px;
+        }
+        
+        #IMleftpics img, #IMrightpics img {
+            margin: 10px;
+            width: 80%;
+        }
+
+        #Datama-section {
+            margin-left:30px;
+            color: #223024;
+            font-family: 'Lato';
+        }
+        
+        #DM {
+            display: flex;
+            flex-direction: row;
+        }
+        
+        #DMleftpics, #DMrightpics {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: -70px;
+        }
+        
+        #DMleftpics img, #DMrightpics img {
+            margin: 10px;
+            width: 75%;
+        }
+
+
+    }
+
+}
