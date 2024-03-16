@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+
+    section{
+        height: 100vh;
+        border: 1px solid red;
+    }
+
+    .home-section{
+        background-image: url(assets/background.png);
+        background-size: cover;
+
+        .navbar {
+            margin: 20px;
+            background-color: transparent;
+            overflow: hidden;
+
+            a {
+                color: #223024;
+                font-family: 'Poppins';
+                float: left;
+                display: block;
+                text-align: center;
+                padding: 10px 50px;
+                text-decoration: none;
+                border: 1px solid transparent;
+                border-radius: 30px;
+                transition: 0.3s ease;
+            }
+        }
+        
+        .navbar a:hover {
+            color: #223024;
+            border: 1px solid #4F674F;
+            border-radius: 30px;
+        }
+
+        .navbar a:first-child:hover {
+            border-color: transparent; 
+        }
+
+        .homepage-contents{
+            display:flex;
+            flex-direction: row;
+
+            .left-item{
+
+                width: 150%;
+
+                h1{
+                    margin: 0;
+                    margin-left: 50px;
+                    font-size: 50px;
+                    font-family: 'Sofia';
+                }
+
+                h2{
+                    margin: 0;
+                    margin-left: 50px;
+                    font-size: 160px;
+                    font-family: 'Raleway';
+                }
+
+                .left-itembtm{
+
+                    text-align: center;
+
+                    h3{
+                        font-size: 30px;
+                        font-family: 'Lato';
+                    }
+
+                    a{
+                        font-size:25px;
+                        background-color: aqua;
+                    }
+                }
+                border: 1px solid blue;
+            }
+
+            .right-item{
+
+                img{
+                    height: 100%;
+                    width: 100%;
+                }
+                border: 1px solid green;
+            }
+        }
+        
+        
+        
+    }
+
+    .introductory-section{
+        background-image: url(assets/background.png);
+        background-size: cover;
+        
+    }
+}
